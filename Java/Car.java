@@ -3,7 +3,7 @@ package Java;
 public class Car {
     Integer id;
     String license;
-    String driver;
+    public String driver;
     Integer passenger;
 
 }
