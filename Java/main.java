@@ -11,10 +11,24 @@ class main {
         car.driver = "John";
         car.passenger = 4;
 
-        System.out.println("Car id: " + car.id);
-        System.out.println("Car license: " + car.license);
-        System.out.println("Car driver: " + car.driver);
-        System.out.println("Car passengers: " + car.passenger);
+        car.printData();
+
+        // Making other car
+
+        System.out.println("Other car");
+
+        Car car2 = new Car();
+
+        car2.id = 2;
+        car2.license = "XYZ-456";
+        car2.driver = "Tom";
+        car2.passenger = 2;
+
+        car2.print_BasicData();
+        car2.print_Passenger();
+
+
+
 
 
 
